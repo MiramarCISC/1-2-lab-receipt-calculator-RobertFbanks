@@ -24,6 +24,8 @@ int main() {
     cout << "Enter tip percentage: ";
     cin >> tipPercent;
 
+    
+
     double subtotal = calculateSubtotal(item1, item2, item3);
     double tax = calculateTax(subtotal);
     double tip = calculateTip(subtotal, tipPercent);

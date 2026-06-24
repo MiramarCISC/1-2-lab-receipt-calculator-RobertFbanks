@@ -37,6 +37,7 @@ int main() {
     cout << "Tax: $" << tax << endl;
     cout << "Tip: $" << tip << endl;
     cout << "Total: $" << total << endl;
+    //Add a before tax output line? IDK, have to make a suggestion, looks great
 
     return 0;
 }
